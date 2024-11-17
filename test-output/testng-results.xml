@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="8" passed="3" failed="0" skipped="0">
+<testng-results ignored="12" total="13" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-10T07:55:39 EET" name="Default suite" finished-at="2024-11-10T07:55:49 EET" duration-ms="9492">
+  <suite started-at="2024-11-17T17:28:39 EET" name="Default suite" finished-at="2024-11-17T17:29:07 EET" duration-ms="28228">
     <groups>
     </groups>
-    <test started-at="2024-11-10T07:55:39 EET" name="Default test" finished-at="2024-11-10T07:55:49 EET" duration-ms="9492">
+    <test started-at="2024-11-17T17:28:39 EET" name="Default test" finished-at="2024-11-17T17:29:07 EET" duration-ms="28228">
       <class name="MyTestCases">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:MyTestCases@6492fab5]" started-at="2024-11-10T07:55:39 EET" name="setUp" finished-at="2024-11-10T07:55:47 EET" duration-ms="8035" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:MyTestCases@294e5088]" started-at="2024-11-17T17:28:39 EET" name="setUp" finished-at="2024-11-17T17:28:55 EET" duration-ms="16043" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="radioButtons()[pri:1, instance:MyTestCases@6492fab5]" started-at="2024-11-10T07:55:47 EET" name="radioButtons" finished-at="2024-11-10T07:55:47 EET" duration-ms="115" status="PASS">
+        <test-method signature="iFrame()[pri:12, instance:MyTestCases@294e5088]" started-at="2024-11-17T17:28:55 EET" name="iFrame" finished-at="2024-11-17T17:29:07 EET" duration-ms="12145" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- radioButtons -->
-        <test-method signature="dynamicDropDown()[pri:2, instance:MyTestCases@6492fab5]" started-at="2024-11-10T07:55:47 EET" name="dynamicDropDown" finished-at="2024-11-10T07:55:49 EET" duration-ms="1145" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dynamicDropDown -->
-        <test-method signature="selectTag()[pri:3, instance:MyTestCases@6492fab5]" started-at="2024-11-10T07:55:49 EET" name="selectTag" finished-at="2024-11-10T07:55:49 EET" duration-ms="152" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectTag -->
+        </test-method> <!-- iFrame -->
       </class> <!-- MyTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
